@@ -5,7 +5,7 @@
         "z": "d3d7f120.bc949",
         "name": "ON!",
         "topic": "",
-        "payload": "[{\"display\":{\"clear\":true,\"text\":\"Hello, obniz!\"}},{\"io0\":true},{\"io1\":false},{\"io2\":false},{\"io3\":true}]",
+        "payload": "[{\"display\":{\"clear\":true,\"text\":\"Digital ON!\"}},{\"io0\":true},{\"io1\":false},{\"io2\":false},{\"io3\":true}]",
         "payloadType": "json",
         "repeat": "",
         "crontab": "",
