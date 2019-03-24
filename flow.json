@@ -1,0 +1,51 @@
+[
+    {
+        "id": "18b44aa7.606de5",
+        "type": "inject",
+        "z": "d3d7f120.bc949",
+        "name": "ON!",
+        "topic": "",
+        "payload": "[{\"display\":{\"clear\":true,\"text\":\"Hello, obniz!\"}},{\"io0\":true},{\"io1\":false},{\"io2\":false},{\"io3\":true}]",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [
+                "129eecee.37b583"
+            ]
+        ]
+    },
+    {
+        "id": "2df153c8.8d798c",
+        "type": "inject",
+        "z": "d3d7f120.bc949",
+        "name": "OFF!",
+        "topic": "",
+        "payload": "[{\"display\":{\"clear\":true,\"text\":\"Digital OFF!\"}},{\"io0\":true},{\"io1\":false},{\"io2\":false},{\"io3\":false}]",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 510,
+        "y": 800,
+        "wires": [
+            [
+                "129eecee.37b583"
+            ]
+        ]
+    },
+    {
+        "id": "129eecee.37b583",
+        "type": "obniz",
+        "z": "d3d7f120.bc949",
+        "obnizId": "OBNIZ-ID",
+        "x": 690,
+        "y": 760,
+        "wires": []
+    }
+]
