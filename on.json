@@ -1,0 +1,20 @@
+[
+    {
+        "display": {
+            "clear": true,
+            "text": "Digital ON!"
+        }
+    },
+    {
+        "io0": true
+    },
+    {
+        "io1": false
+    },
+    {
+        "io2": false
+    },
+    {
+        "io3": true
+    }
+]
